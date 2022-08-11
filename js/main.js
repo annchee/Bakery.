@@ -40,7 +40,7 @@ var home = new Swiper(".home-slider", {
 
 /* Mini banner 2 swiper */
 var bannerBar = new Swiper(".mini-banner-2-swiper", {
-  slidesPerView: 6,
+  slidesPerView: 3,
   spaceBetween: 30,
   grabCursor: true,
   scrollbar: {
@@ -48,7 +48,7 @@ var bannerBar = new Swiper(".mini-banner-2-swiper", {
         hide: false,
   },
   breakpoints: {
-    420: {
+    350: {
       slidesPerView: 3
     },
     575: {
@@ -56,6 +56,9 @@ var bannerBar = new Swiper(".mini-banner-2-swiper", {
     },
     768: {
       slidesPerView: 5
+    },
+    1200:{
+      slidesPerView: 7
     }
   }
 });
